@@ -13,7 +13,29 @@ int main()
     {
         if(i==3)
             break;
-       scanf("%d\n",&nums[i]);
+       scanf("%d\n",&nums[i]);//just delete the \n then it'll work
+    }
+ for(int i=0;i<3;i++)
+    {
+       printf("\n%d\n",nums[i]);
+    }
+
+
+    return 0;
+}
+//----------------------
+#include<stdio.h>
+#define rng 10
+int main()
+
+{
+    int nums[rng];
+
+  for(int i=0;i<3;i++)
+    {
+        if(i==3)
+            break;
+       scanf("%d",&nums[i]);
     }
  for(int i=0;i<3;i++)
     {
