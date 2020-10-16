@@ -1,0 +1,89 @@
+#include<stdio.h>
+int main()
+{
+    int i, j, count=10, factor;
+
+    for(i = 1; i <= count; i++)
+    {
+        factor=0;
+                         for (j=1; j <= count; j++)
+                        {
+                            if (i%j==0)
+                            {
+                               factor++;
+                            }
+                         }
+            if (factor==2)
+            {
+              printf("%d\n",i);
+            }
+    }
+return 0;
+}
+
+
+/*
+
+#include<stdio.h>
+int main()
+{
+    int i, j, count=10, factor;
+
+    for(i = 1; i <= count; i++)
+    {
+         printf("   currently i is %d\n",i);
+        factor=0;
+        printf(" And fac1 of i loop is =  %d\n",factor);
+
+
+                         for (j=1; j <= count; j++)
+                         {
+                            printf("   currently j is %d\n",j);
+                            if (i%j==0)
+                            {
+                                printf("  from i/j %d\n",i%j);
+                               ++factor;
+                                printf("   And the fac2 of j loop is    %d\n",factor);
+                            }
+                         }
+
+
+        if (factor==2)
+        {
+            printf("%d\n",i);
+        }
+
+
+
+         printf("--------------global factor----------%d\n",factor);
+    }
+return 0;
+}
+
+
+//----------------------------------------
+#include<stdio.h>
+int main()
+{
+    int i, j, count = 300, factor; // deleration
+
+    for(i=1; i<= count; i++)
+    {
+        factor = 0;
+
+        for(j=1; j<= count; j++)//this loop runs for every i
+        {
+            if(i%j == 0)// remember i%j == i/j
+            {
+              factor++;// this problem is solved based on it's factor
+            }
+        }
+        if(factor == 2)// as the factor for prime numbers are only two.
+        {
+            printf("%d, ",i);
+        }
+    }
+return 0;
+}
+
+*/
