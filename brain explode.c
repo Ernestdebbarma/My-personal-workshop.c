@@ -1,13 +1,7 @@
-Sanfoundry
-Menu
 
-C Program to Segregate 0s on Left Side & 1s on right side of the Array
-« PrevNext »
-This C Program segregates 0s on left side & 1s on right side of the array.
-Here is source code of the C Program to segregate 0s on left side & 1s on right side of the array. The C program is successfully compiled and run on a Linux system. The program output is also shown below.
 
 /*
- * C Program to Segregate 0s on Left Side & 1s on right side of the Array (Traverse Array only once)
+ C Program to Segregate 0s on Left Side & 1s on right side of the Array (Traverse Array only once)
  */
 #include <stdio.h>
  
