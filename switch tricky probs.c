@@ -25,15 +25,14 @@ int main()
     int a=0, b=0;
     char c;
 
-    printf("enter the operator (*, -, +, /) ");
-    scanf("%c", &c);
-
     printf("give first number");
     scanf("%d", &a);
 
     printf("give second number");
     scanf("%d", &b);
-
+    
+    printf("enter the operator (*, -, +, /) ");
+    scanf(" %c", &c);// here just give a space before %c it will solve the problem.
 
     fn(a, b, c);
 
